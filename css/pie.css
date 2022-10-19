@@ -1,11 +1,14 @@
 .pie-container {
-    display: flex;   /* div será un contenedor flex */
+    display: flex;
+    /* div será un contenedor flex */
     flex-direction: row;
     align-items: stretch;
     background-color: black;
     height: 350px;
 }
-.pie-container > div {  /* selectores avanzados */
+
+.pie-container>div {
+    /* selectores avanzados */
     color: rgb(209, 209, 209);
     /*align-self: stretch;
     align-content: stretch;*/
@@ -15,17 +18,28 @@
     font-size: 25px;
     width: 120px;
 }
-h3{
+
+h3 {
     text-decoration: underline;
     text-align: center;
 }
-p{
+
+p {
     text-align: justify;
 }
-@media (min-width 768px){
-    .pie-container > div {
-     font-size: 5px;
-     padding: 5px;
-    }
 
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 90%;
+    margin: 5px;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
