@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/pruapi.css">
 </head>
 <body>
-    <div class="container">
+    <div class="postulantes">
         <h1 id="titulo">¿Quiere conocer las postulantes a ser adoptadas?</h1>
         <button id="boton" onclick="traerDatosAPI()">Ver postulantes</button>
     </div>
-    <div id="contenido" ></div>
+    <div id="postu" ></div>
 
     <script>
         // lee los datos remotos, usando fetch
@@ -23,7 +23,7 @@
                     .then(datos => {
                         for(var i=0; i<5; i++) {
                             // copio en #contenido.
-                            contenido.innerHTML +=
+                            postu.innerHTML +=
                                 `<div class="tarjeta">
                                 Postulante nro: ${datos.lombrices[i].id}<br>
                                 <img src = "${datos.lombrices[i].imagen}"</img><br><br>

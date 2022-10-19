@@ -34,10 +34,10 @@ function inicio() {
                 tiene una relevancia implícita que la cataloga como “ingenieros del ecosistema”.
                 </p>
             </li>
-        </ul><br>
-       
-    <iframe class="iframe-02" src="pruapi.html" scrolling="no"></iframe>
-    </div>
+        </ul>
+        
+        
+        </div>
     `;
     document.getElementById("centro").innerHTML = ini;
 };
