@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;                          /*Convierte el contenedor en una grilla */
+ /* display: inline-grid; */
+    grid-template-columns: auto auto auto auto;       /*Forma en que se distribuyen los elementos*/
+    gap: 10px;                              /*Espacios entre los hijos*/
+    padding: 10px;                          /*Coloco un espacio alrededor del conjunto de hijos*/
+}
+
+.grid-item {
+    padding:10px;
+    text-align: center;         /*Contenido de los hijos centrado en x */
+    width: 50%;
+    height: 40%;
+}

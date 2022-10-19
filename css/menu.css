@@ -1,0 +1,31 @@
+/*menu*/
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.imgg{
+  justify-content: space-between;
+    display: flex;
+    height: 65px;
+    float: left
+}
+#hov :hover{
+  background-color: rgb(59, 90, 19);
+}
+#hov li {
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  justify-content: space-between
+}
+ 

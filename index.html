@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Salven a las lombrices</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!--<link rel= "stylesheet" type= "text/css" herf= "http.//fonts.googleapis.com/css family=Tangerine">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/SLL__2.png" />
+    <!--font-family: 'Open Sans', sans-serif;-->
+
+    <!--requerido por menu (boostrap))-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--si no se usan los iframe de cabecera y pie, usar estas 4 lineas.
+    <link rel="stylesheet" href="css/cabecera.css"> 
+    <script src="js/cabecera.js"></script>
+    <link rel="stylesheet" href="css/pie.css"> 
+    <script src="js/pie.js"></script>-->
+    <!-------------------------------------------->
+
+    <link href="css/css_02.css" rel= "stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <!--<link href="css/nosotros.css" rel="stylesheet">-->
+    <link href="css/faq.css" rel="stylesheet">
+    <!--
+        anlizar, entra en conflicto con nosotros()
+        <link href="css/carrusel.css" rel="stylesheet">-->
+    
+    <script src="js/menu.js"></script>
+    
+    <!-- las funciones que se reemplazarán en el cuerpo central-->
+    <script src="js/inicio.js"></script>
+    <!--<script src="js/laslombrices.js"></script>-->
+    <script src="js/adopcion.js"></script>
+    <script src="js/nosotros.js"></script>
+    <script src="js/faq.js"></script>
+    <script src="js/mensaje.js"></script>
+    <!--<script src="js/carrusel.js" defer></script>-->
+    
+    <!-- CDN de Vue, version de desarrollo -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Prueba: carrusel en iframe  -->
+    <script src="js/laslombrices2.js"></script>
+    <link rel="shortcut icon" href="img/SLL__2.ico" />
+
+</head>
+<body id="cuerpo-principal">
+	<div class="contenedor-principal">
+        <!-- la cabecera ------------------------------------- -->
+        <!--Utilizando un iframe -->
+        <header class="cabecera" id="cabecera">
+            <iframe class="iframe-01" src="cabecera.html" scrolling="no"></iframe>
+        </header>
+
+		<!--Asi sería utilizando js (podría reemplazar al iframe) 
+            <header class="cabecera" id="cabecera">
+                <script>cabecera();</script>  
+            </header> -->
+        <!-- fin cabecera ------------------------------------ -->
+        
+        <!--Menu no puede ser iframe porque no enlaza bien con las funciones js-->
+        <!--<menu class="menu" id="menu">
+            <iframe class="iframe-01" src="menu.html" scrolling="no"></iframe>
+        </menu>-->
+        <!--El a ref de cada item de menú dispara las distintas funciones js-->
+        <menu class="menu" id="menu"></menu>
+        <!-- fin menu ------------------------------------ -->
+        
+        <article class="centro" id="centro"></article>
+
+        <!-- pie --------------------------------------------- -->
+        <footer class="pie" id="pie">
+            <iframe class="iframe-02" src="pie.html" scrolling="no"></iframe>
+        </footer>
+        <!--Asi sería utilizando js (podría reemplazar al iframe) 
+            <footer class="pie" id="pie">
+                <script>pie();</script>  
+            </footer>-->
+        <!-- fin pie ----------------------------------------- -->
+    </div>
+    <!--cuerpo.js: objetivo: segun el punto de menú seleccionado
+    disparará la función que reemplazará el contenido de la
+    página (id centro) sin tener que recargar o direccionar a ningún lado-->
+    <script src="js/cuerpo.js"></script>
+
+<!-- este no tengo
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+-->
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Sript que cargará vue desde la última parte de adopción.js-->
+<script class="viu" id="viu"></script>
+</body>
+</html>

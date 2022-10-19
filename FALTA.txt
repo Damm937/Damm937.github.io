@@ -1,0 +1,16 @@
+
+
+
+- poner todo bien el en GIT
+- Mandar el formulario del TPO
+
+
+- Pie
+
+
+- Probar Interpolación / v-html / v-text 
+en el nombre de la lombriz, en el formulario
+
+
+- ajustar nombres y que hacen en Nosotros
+

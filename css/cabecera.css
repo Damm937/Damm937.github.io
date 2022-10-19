@@ -1,0 +1,32 @@
+/*SOLO PARA LA CABECERA*/
+.cab-container {
+    display: flex;   /* será un contenedor flex */
+    flex-direction: row;
+    align-items:baseline;
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/01.png");
+}
+.cab-container > div {  /* selectores avanzados */
+    color:antiquewhite;
+    text-shadow: 10px 3px 5px black;
+    font-size: 55px;
+}
+.log h1{
+    padding: 45px 25px;
+    font-size: 65px;
+    text-align: center;
+    text-decoration:underline;
+}
+.log h3{
+    padding: 10px 20px;
+    float: right;
+}
+    /*flex-basis: 20vwpx;  /*Podemos usar content, px, %, em, vw, etc */
+    /*margin: 0,100px;
+    padding: 20px;*/
+    /*width: 120px;
+    align-content: flex-end; 
+    justify-content: flex-end;*/
+
+/*FIN CABECERA*/

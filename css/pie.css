@@ -1,0 +1,31 @@
+.pie-container {
+    display: flex;   /* div será un contenedor flex */
+    flex-direction: row;
+    align-items: stretch;
+    background-color: black;
+    height: 350px;
+}
+.pie-container > div {  /* selectores avanzados */
+    color: rgb(209, 209, 209);
+    /*align-self: stretch;
+    align-content: stretch;*/
+    /*flex-basis: 20vwpx; Podemos usar content, px, %, em, vw, etc */
+    margin: 0, 50px;
+    padding: 10px;
+    font-size: 25px;
+    width: 120px;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+@media (min-width 768px){
+    .pie-container > div {
+     font-size: 5px;
+     padding: 5px;
+    }
+
+}
