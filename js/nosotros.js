@@ -17,7 +17,7 @@ function nosotros() {
     <table>
         <thead>
             <tr>
-                <th>Damián Apellido</th>
+                <th>Damián Maretto</th>
                 <th>Roberto Benavente</th>
             </tr>
         </thead>
