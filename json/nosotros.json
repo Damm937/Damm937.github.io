@@ -1,0 +1,18 @@
+{
+"nosotros": [
+      {
+        "id": 1,
+        "imagen": "../img/Damian.jpg",
+        "nombre": "Damian Maretto",
+        "quienes": "Fotógrafo profesional",
+        "quehace": "Futuro master en sistemas"
+      },
+      {
+        "id": 2,
+        "imagen": "../img/yo.jpg",
+        "nombre": "Roberto Benavente",
+        "quienes": "Solo un dino-nerd",
+        "quehace": "Desarrollador de aplicaciones"
+      }
+    ]
+} 

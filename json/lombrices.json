@@ -1,0 +1,39 @@
+{
+"lombrices": [
+      {
+        "id": "1",
+        "imagen": "/img/05.jpg",
+        "nombre": "Beatriz la lombriz",
+        "tipo": "Eisenia fetida",
+        "caracteristica": "Es la 'Roja Californiana'"
+      },
+      {
+        "id": "2",
+        "imagen": "/img/07.jpg",
+        "nombre": "Eugenia",
+        "tipo": "Eudrilus eugeniae",
+        "caracteristica": "Sale a pasear de noche"
+      },
+      {
+        "id": "3",
+        "imagen": "/img/09.jpg",
+        "nombre": "Eulalia",
+        "tipo": "Dendrobaena veneta",
+        "caracteristica": "No le gustan los anzuelos"
+      },
+      {
+        "id": "4",
+        "imagen": "/img/12.jpg",
+        "nombre": "Cornelia",
+        "tipo": "Perionyx excavatus",
+        "caracteristica": "Odia salir de pesca"
+      },
+      {
+        "id": "5",
+        "imagen": "/img/13.jpg",
+        "nombre": "Chipandolfa",
+        "tipo": "Lumbricus rubellus",
+        "caracteristica": "Prefiere la montaña a la playa"
+      }
+    ]
+} 
