@@ -35,13 +35,13 @@ function inicio() {
                 </p>
             </li>
         </ul>
-        
-        
-        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <article id="centro2">CENTRO2</article>
+    <br>
     `;
     document.getElementById("centro").innerHTML = ini;
+    postulantes();
 };
-/*fin cuerpo Nosotros
 
-
-*/
+/*fin*/

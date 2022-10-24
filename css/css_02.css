@@ -33,6 +33,14 @@
     /*font-family: 'Silkscreen', cursive;*/
     font-size: 16px;
 }
+.centro2 {
+    width: 550%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /*cabecera*/
 .iframe-01 {
     border: 0px;

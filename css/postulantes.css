@@ -1,6 +1,6 @@
-/*  */
+/*Postulantes*/
 button {
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     background-color:darkolivegreen;
     border-radius: 3px;
@@ -16,15 +16,16 @@ button {
 }
 
 .tarjeta {
+    font-size: 16px;
     float: left;
-    border: 1px solid red;
+    border: 1px solid rgb(193, 191, 191);
     margin:4px; padding: 2px;
-    width:300px;
-    height:210px;
+    width:420px;
+    height:330px;
     overflow: hidden;
 }
 
-img {
-    height: 100px;
-    width: 100px;
+.tarjeta > img {
+    height: 180px;
+    width: 180px;
 }

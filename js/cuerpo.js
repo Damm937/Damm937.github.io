@@ -20,4 +20,4 @@ switch(menuitem){
         break;
  }*/
 menu();
-inicio(); 
+inicio();
