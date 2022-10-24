@@ -3,24 +3,30 @@
     display: flex;   /* será un contenedor flex */
     flex-direction: row;
     align-items:baseline;
-    height: 500px;
+    height: 570px;
     width: 100%;
     background-image: url("../img/01.png");
 }
-.cab-container > div {  /* selectores avanzados */
+.cab-container > div {
     color:antiquewhite;
     text-shadow: 10px 3px 5px black;
     font-size: 55px;
 }
+.log{
+    flex-grow: 1;
+}
 .log h1{
     padding: 45px 25px;
-    font-size: 65px;
-    text-align: center;
+    font-size: 75px;
+    /*text-align: center;*/
+    text-align: left;
     /*text-decoration:underline;*/
 }
 .log h3{
     padding: 10px 20px;
     float: right;
+    font-size: 45px;
+    width: 100%;
 }
     /*flex-basis: 20vwpx;  /*Podemos usar content, px, %, em, vw, etc */
     /*margin: 0,100px;
@@ -28,5 +34,9 @@
     /*width: 120px;
     align-content: flex-end; 
     justify-content: flex-end;*/
-
+.log p{
+    font-size: 35px;
+    padding-right: 25px;
+    float: right;
+}
 /*FIN CABECERA*/

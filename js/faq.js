@@ -31,7 +31,7 @@ function faq() {
                 <p>La verdad, no. Una vez ingresado al proyecto es imposible darse de baja, 
                    sobre todo a su tarjeta de crédito y sus datos personales</p>
             </div>
-        </div>
+        </div><br>
         <div class="accordion">
             <div class="accordion__question">
                 <p>¿QUE NIVEL DE SEGURIDAD TIENEN MIS DATOS?</p>
@@ -40,7 +40,7 @@ function faq() {
                 <p>Ninguno, utilizamos una base de datos completamente pública y sus datos 
                    están expuestos en internet 24/7.</p>
             </div>
-        </div>
+        </div><br>
         <div class="accordion">
             <div class="accordion__question">
                 <p>¿COMO MONITOREO A MI LOMBRIZ? ¿DONDE ESTÁ?</p>
@@ -50,7 +50,7 @@ function faq() {
                     en todo momento su ubicación física. Eso sí, deberá pagar un abono extra 
                     cada vez que quiera localizarla.</p>
             </div>
-        </div>
+        </div><br>
         <div class="accordion">
             <div class="accordion__question">
                 <p>¿COMO MONITOREO LA SALUD DE MI LOMBRIZ?</p>
@@ -64,7 +64,7 @@ function faq() {
                     Eso sí, se le seguirá descontando de su tarjeta de crédito (de por vida, de por "su" 
                     vida), el costo de la adopción.</p>
             </div>
-        </div>    
+        </div><br>   
         <div class="accordion">
             <div class="accordion__question">
                 <p>¿CUALES SON LOS REQUISITOS PARA PODER ADOPTAR?</p>
@@ -73,7 +73,7 @@ function faq() {
                 <p>Solo debe tener un requisito fundamental y específico: tener dinero disponible 
                 en su tarjeta de crédito.</p>
             </div>
-        </div>    
+        </div><br>    
          <div class="accordion">
             <div class="accordion__question">
                 <p>¿CUANTO TIEMPO ES NECESARIO PARA ADOPTAR?</p>
@@ -81,8 +81,8 @@ function faq() {
             <div class="accordion__answer">
                 <p>El tiempo que nos tome analizar sus finanzas.</p>
             </div>
-        </div>    
-   </div>
+        </div><br>    
+   </div><br><br><br>
     `;
     document.getElementById("centro").innerHTML = vfaq;
         

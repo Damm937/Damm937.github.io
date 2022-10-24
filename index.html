@@ -38,12 +38,10 @@
     <script src="js/inicio.js"></script>
     <script src="js/postulantes.js"></script>
     <script src="js/traerDatosAPI.js"></script>
-    <!--<script src="js/laslombrices.js"></script>-->
     <script src="js/adopcion.js"></script>
     <script src="js/nosotros.js"></script>
     <script src="js/faq.js"></script>
     <script src="js/mensaje.js"></script>
-    <!--<script src="js/carrusel.js" defer></script>-->
     
     <!-- CDN de Vue, version de desarrollo -->
     <script src="https://unpkg.com/vue@next"></script>
@@ -51,7 +49,6 @@
 
     <!-- Prueba: carrusel en iframe  -->
     <script src="js/laslombrices2.js"></script>
-    <link rel="shortcut icon" href="img/SLL__2.ico" />
 
 </head>
 <body id="cuerpo-principal">
@@ -66,7 +63,7 @@
             <header class="cabecera" id="cabecera">
                 <script>cabecera();</script>  
             </header> -->
-        <!-- fin cabecera _______________________________ -->
+        <!-- fin cabecera _______________________ -->
         
         <!--Menu no puede ser iframe porque no enlaza bien con las funciones js-->
         <!--<menu class="menu" id="menu">
@@ -78,27 +75,29 @@
         
         <article class="centro" id="centro"></article>
 
-        <!-- pie ____________________________ -->
+        <!-- pie _________________________________ -->
         <footer class="pie" id="pie">
             <iframe class="iframe-02" src="pie.html" scrolling="no"></iframe>
         </footer>
+
         <!--Asi sería utilizando js (podría reemplazar al iframe) 
             <footer class="pie" id="pie">
                 <script>pie();</script>  
             </footer>-->
-        <!-- fin pie ________________________ -->
+        <!-- fin pie _____________________________ -->
+
     </div>
     <!--cuerpo.js: objetivo: segun el punto de menú seleccionado
     disparará la función que reemplazará el contenido de la
     página (id centro) sin tener que recargar o direccionar a ningún lado-->
     <script src="js/cuerpo.js"></script>
 
-<!-- este no tengo
-<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
--->
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <!-- este no tengo
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
 
-<!-- Sript que cargará vue desde la última parte de adopción.js-->
-<script class="viu" id="viu"></script>
+    <!-- Sript que cargará vue desde la última parte de adopción.js-->
+    <script class="viu" id="viu"></script>
 </body>
 </html>

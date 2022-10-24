@@ -18,7 +18,7 @@ function nosotros() {
         <thead>
             <tr>
                 <th>Damián Maretto</th>
-                <th>Roberto Benavente</th>
+                <th>Roberto jorge Benavente</th>
             </tr>
         </thead>
         <tbody>

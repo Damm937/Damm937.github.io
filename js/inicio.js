@@ -12,7 +12,7 @@ function inicio() {
         <ul style="list-style: none">
             <li>
                 <img src="../img/02.png">
-                <h3>Algunas curiosidades sobre la famosa LOMBRIZ DE TIERRA</h3>
+                <h3>Algunas curiosidades sobre la famosa<br>LOMBRIZ DE TIERRA</h3>
                 <p align="left">La lombriz de tierra, de color gris rojizo, es un animal familiar para todo aquel
                 que tenga un jardín o una caña de pescar. Es oriunda de Europa, pero en la
                 actualidad abunda también en Norteamérica y en Asia occidental.<br>
@@ -24,7 +24,7 @@ function inicio() {
                 cerdas, que la lombriz usa para remover y escarbar la tierra.
                 </p>
             </li>
-            <br><br><br><br><br><br>
+            <br>
             <li>
                 <img src="../img/11.jpg" align="right">
                 <h3 align="right" style="margin-right: 50px">Lombriz de tierra, <br>el animal más importante del planeta</h3>
