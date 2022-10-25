@@ -9,28 +9,9 @@ function nosotros() {
         <div class="grid-item">
             <img src="../img/Damian.jpg">
         </div>
-        
         <div class="grid-item">
             <img src="../img/yo.png">
         </div>
-        
-        <div class="grid-item">
-        <th>Damián Apellido</th>
-  
-        </div>
-        <div class="grid-item">
-        <th>Roberto Benavente</th>
-        
-        </div>
-        <div class="grid-item">
-        <td>Quien es y que hace Damian &nbsp;&nbsp;&nbsp;</td>
-      
-        </div>
-        <div class="grid-item">
-        <td>Quien es y que hace Roberto </td>
-         
-        </div>
-
     </div><br>
     `;
     document.getElementById("centro").innerHTML = nos;

@@ -13,22 +13,6 @@ function nosotros() {
             </li>
         </ul>
     </div>
-    <div class="jsnosotros">
-    <table>
-        <thead>
-            <tr>
-                <th>Damián Maretto</th>
-                <th>Roberto jorge Benavente</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Quien es y que hace Damian &nbsp;&nbsp;&nbsp;</td>
-                <td>Quien es y que hace Roberto </td>
-            </tr>
-        </tbody>
-    </table>    
-    </div>
     `;
     document.getElementById("centro").innerHTML = nos;
 };

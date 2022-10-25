@@ -6,7 +6,7 @@
 */
 function laslombrices2() {
     var vlom = `
-    <h3>Seleccione la lombriz que más le agrade y luego complete 
+    <h3>Seleccione la lombriz que más le agrade y luego <br>complete 
     el formulario para finalizar su trámite de adopción:</h3>
     <br>
         <button type="button" class="btn btn-primary" onclick="javascript:adopcion();">Formulario de adpción</button>

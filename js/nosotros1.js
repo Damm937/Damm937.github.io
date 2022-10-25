@@ -9,32 +9,8 @@ function nosotros() {
         <ul style="list-style: none">
             <li>
                 <img src="../img/Damian.jpg">
-                <table>
-                <thead>
-                    <tr>
-                        <th>Damián Apellido</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Quien es y que hace Damian &nbsp;&nbsp;&nbsp;</td>
-                    </tr>
-                </tbody>
-                </table>    
     
                 <img src="../img/yo.png">
-                <table>
-                <thead>
-                    <tr>
-                        <th>Roberto Benavente</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Quien es y que hace Roberto </td>
-                    </tr>
-                </tbody>
-            </table>    
             </li>
         </ul>
     </div>
