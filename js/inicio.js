@@ -37,7 +37,7 @@ function inicio() {
         </ul>
     </div>
     <br><br><br><br><br><br>
-    <article id="centro2">CENTRO2</article>
+    <article id="centro2"></article>
     <br>
     `;
     document.getElementById("centro").innerHTML = ini;

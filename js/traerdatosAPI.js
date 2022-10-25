@@ -1,4 +1,4 @@
-function traerDatosAPI() {
+function traerdatosapi() {
     // lee los datos remotos, usando fetch
     fetch('https://mocki.io/v1/b3001ccd-c914-4d37-8f04-deb5555da9c6')
         // Cuando ha finalizado la lectura guardo en datos el texto leido:
@@ -17,8 +17,8 @@ function traerDatosAPI() {
                 }
                 document.getElementById('boton').style.display = `none`,
                 document.getElementById('titulo').textContent = `Estas son: `
-            .catch (error => {
-                console.log('Ocurrió un error grave', error)
-            })
+            //.catch (error => {                          parece que el catch no funciona 
+            //    console.log('Ocurrió un error grave al intentar leer la API', error)
+            //})
         })
 };
