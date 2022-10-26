@@ -23,6 +23,19 @@ function faq() {
     <h2 style="text-align:center">Preguntas frecuentes...</h2>
     <br>
     <div class="layout">
+    <div class="accordion">
+            <div class="accordion__question">
+                <p>¿COMO FUNCIONA EL SISTEMA DE ADOPCIÓN?</p>
+            </div>
+            <div class="accordion__answer">
+                <p>El sistema de adopción es muy simple, usted nos da su dinero y 
+                   nosotros le asignamos una lombriz. De alli en adelante, esa lombriz es suya. 
+                   Podrá monitorearla, controlar su estado de salud, etc. 
+                   Es una adpoción -de por vida-... de por su vida, la suya, no de la vida de la lombriz. 
+                   Esto específicamente quiere decir que le estaremos descontando de su tarjeta de crédito 
+                   los valores correspondientes a la adopción, por el resto de su vida.</p>
+            </div>
+        </div><br>
         <div class="accordion">
             <div class="accordion__question">
                 <p>¿PUEDO DARME DE BAJA?</p>
@@ -53,7 +66,7 @@ function faq() {
         </div><br>
         <div class="accordion">
             <div class="accordion__question">
-                <p>¿COMO MONITOREO LA SALUD DE MI LOMBRIZ?</p>
+                <p>¿COMO PUEDO CONTROLAR LA SALUD DE MI LOMBRIZ?</p>
             </div>
             <div class="accordion__answer">
                 <p>Cada Lombriz antes de ser postulada para su adopción, es chequeada por los 
