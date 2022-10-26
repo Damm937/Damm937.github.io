@@ -1,54 +1,59 @@
 # Damm937.github.io
 Salvemos las lombrices
 
-Salven a las lombrices es un sistema de adopción de lombrices de tierra.
-Ud. nos da su dinero, nosotros le asignamos una lombriz en adopción.
-Tan simple como eso, de esta forma, con su generosa contribución, 
-estará ayudando a salvar el planeta y a nosotros también...
+Salven a las lombrices es un sistema de adopciï¿½n de lombrices de tierra.
+Ud. nos da su dinero, nosotros le asignamos una lombriz en adopciï¿½n.
+Tan simple como eso, de esta forma, con su generosa contribuciï¿½n, 
+estarï¿½ ayudando a salvar el planeta y a nosotros tambiï¿½n...
  
-Verá en el sitio a "Las Postulantes", lombrices factibles de ser adoptadas;
-podrá seleccionar la que más le guste, la que se ajuste a sus necesidades y
-adoptarla. ¿Cómo?, llenando sus datos en el formulario, y lo más importante
-los datos de su tarjeta de crédito...
+Verï¿½ en el sitio a "Las Postulantes", lombrices factibles de ser adoptadas;
+podrï¿½ seleccionar la que mï¿½s le guste, la que se ajuste a sus necesidades y
+adoptarla. ï¿½Cï¿½mo?, llenando sus datos en el formulario, y lo mï¿½s importante
+los datos de su tarjeta de crï¿½dito...
 
-También verá en el sitio, una reseña de quienes somos, como contactarnos y 
+Tambiï¿½n verï¿½ en el sitio, una reseï¿½a de quienes somos, como contactarnos y 
 algunas preguntas frecuentes. De tener alguna duda, solo nos llama.
 
-Datos Técnicos:
+Datos Tï¿½cnicos:
 """""""""""""""
-- El sistema está preparado para funcionar en una sola página principal; 
-todo lo que se ve, todos los puntos de menú y ajustes de página, suceden
-por la utilización de funciones desarrolladas en javascript que modifican
+- El sistema estï¿½ preparado para funcionar en una sola pï¿½gina principal; 
+todo lo que se ve, todos los puntos de menï¿½ y ajustes de pï¿½gina, suceden
+por la utilizaciï¿½n de funciones desarrolladas en javascript que modifican
 el centro del index.html y permite navegar todo el sitio sin salir de ella.
-Solo incrustamos (por ifreme) la cabecera y el pie de la página principal, para 
-convinar técnicas y que no todo sea javascript. Se ve en la página principal, los
-js que podrían reemplazar los iframe, pero nos pareció oportuna la combinación.
+Solo incrustamos (por ifreme) la cabecera y el pie de la pï¿½gina principal, para 
+convinar tï¿½cnicas y que no todo sea javascript. Se ve en la pï¿½gina principal, los
+js que podrï¿½an reemplazar los iframe, pero nos pareciï¿½ oportuna la combinaciï¿½n.
 
-- Utilizamos la recuperación y muestreo de una API en json, generada por nosotros
-y alojada en un servidor externo. Luego de recuperarla con fetch, se muestra también
-incrustando un <div> específico en el cuerpo principal.
+- Utilizamos la recuperaciï¿½n y muestreo de una API en json, generada por nosotros
+y alojada en un servidor externo. Luego de recuperarla con fetch, se muestra tambiï¿½n
+incrustando un <div> especï¿½fico en el cuerpo principal.
 
-- Para que el mensaje del final de la adopción se vea bien, utilizamos un frameword especial
-SWEETALER, que permite una mejor visualización de cualquier mensaje.
+- Para que el mensaje del final de la adopciï¿½n se vea bien, utilizamos un frameword especial
+SWEETALER, que permite una mejor visualizaciï¿½n de cualquier mensaje.
 
-- Usamos BOOSTRAP en varios lugares, pero en el formulario de adopción es donde se utiliza 
+- Usamos BOOSTRAP en varios lugares, pero en el formulario de adopciï¿½n es donde se utiliza 
 completamente. 
 
-- Para la presentación de las lombrices, usamos un carrusel desarrollado solo con css y js, 
+- Para la presentaciï¿½n de las lombrices, usamos un carrusel desarrollado solo con css y js, 
 (con boostrap hubiese sido mejor, pero no quisimos abusar de ese framework).
 
-- También al final del formulario el sistema permite cambiarle el nombre a la lombriz, eso lo 
-logramos utilizando el framework VUE.
+- Tambiï¿½n al final del formulario el sistema permite cambiarle el nombre a la lombriz, eso lo 
+logramos utilizando el framework VUE. (aunque en algunos navegadores estÃ© dando problemas...)
 
-- También incluimos un mail, con mailto, pero con una técnica "anti robot buscadores de mails", 
+- En Preguntas Frecuentes utilizamos el mÃ©todo queySelectorAll() y eventos como el addEvenListener() 
+para recuperar el click; tambiÃ©n manejamos clases activas para desactivarlas o activarlas segÃºn sea 
+necesario y mostrar las respuestas a las distintas preguntas. Todo sin Boostrap ni otros frameworks 
+que claro, harÃ­an la vida mas simple, pero ese no es el objetivo del TPO, segÃºn interpretamos.
+
+- Tambiï¿½n incluimos un mail, con mailto, pero con una tï¿½cnica "anti robot buscadores de mails", 
 para ayudar a combatir el correo no deseado (spam).
 
-- Y una perlita: podrá comunicarse con nosotros por Whatsapp, por intermedio de una burbuja
-que está al pie de la página.
+- Y una perlita: podrï¿½ comunicarse con nosotros por Whatsapp, por intermedio de una burbuja
+que estï¿½ al pie de la pï¿½gina.
 
 
-Y nada más, hemos priorizado en todo momento la velocidad de proceso, de carga y movimiento
-del sitio en general y la utilización de las herramientas de estudio, sobre quizás, la estética 
-de la página; esperamos que interpreten el proyecto y que sea de su agrado. 
+Y nada mï¿½s, hemos priorizado en todo momento la velocidad de proceso, de carga y movimiento
+del sitio en general y la utilizaciï¿½n de las herramientas de estudio, sobre quizï¿½s, la estï¿½tica 
+de la pï¿½gina; esperamos que interpreten el proyecto y que sea de su agrado. 
 
-Damián y Roberto.
+Damiï¿½n y Roberto.
