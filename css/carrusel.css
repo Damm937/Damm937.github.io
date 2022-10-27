@@ -1,7 +1,7 @@
 :root {
   --negro: #393939;
   --blanco: #ececec;
-  --sombra-ppal: #c9c9c9;
+  --sombra-ppal: #b2b0b0;
   --sombra-sec: #ffffff;
 }
 
@@ -19,7 +19,7 @@ li {
 
 .carrousel {
   width: 40%;
-  max-width: 500em;
+  max-width: 550em;
   padding: 0em;
   color: var(--negro);
   transition: all 0.4s ease;
@@ -59,7 +59,7 @@ li {
 }
 
 .carrousel .puntos {
-  width: 100%;
+  width: 130%;
   margin: 1em 0 0;
   padding: 0.4em;
   display: flex;
@@ -76,9 +76,11 @@ li {
   transition: all 0.4s ease;
   background-color: var(--blanco);
   border-radius: 1em;
-  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), -0.6em -0.6em 1.2em var(--sombra-sec), inset 0 0 0 transparent, inset 0 0 0 transparent;
+  box-shadow: 0.6em 0.6em 1.2em var(--sombra-ppal), 
+    -0.6em -0.6em 1.2em var(--sombra-sec), 
+    inset 0 0 0 transparent;
 }
 
 .carrousel .punto.activo {
-  background-color: lightblue;
+  background-color: rgb(72, 189, 228);
 }

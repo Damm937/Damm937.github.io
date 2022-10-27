@@ -35,7 +35,7 @@ punto.forEach( ( cadaPunto , i )=> {
 //
 img.forEach( (cadaImg , n )=> {
     img[n].addEventListener('click',()=>{
-        window.alert("Seleccionaste la lombriz nro: " + (n + 1));
+        window.alert("Ha seleccionado la lombriz nro: " + (n + 1));
         `<script src="adopcion()"></script>`;
     })
 })
